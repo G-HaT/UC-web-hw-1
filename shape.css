@@ -1,0 +1,68 @@
+
+/*game1 properties*/
+
+.back-clr {
+    background-color: wheat;
+
+}
+
+.ti-tle {
+    color: white; font-weight: bold; position: absolute; left: 40%; top: 8%;
+}
+
+.clr {
+    color: white; position: absolute;
+    left: 5%;
+    top: 24%;
+}
+
+
+
+
+/*game2 properties*/
+.back-clr2 {
+    background-color:  wheat;
+}
+
+.ti1-tle1 {
+
+    color: white;  font-weight: bold; font-style: italic; 
+}
+
+
+.ti1-tle {
+
+    color: white;
+}
+
+.back1 {
+    width: 12%; background-color: rgb(148, 89, 0);position: absolute; left: 42%; top: 8%; 
+}
+
+.pos1 {
+    position: absolute; left: 5%; top: 17%;
+}
+
+.pos2 {
+    width:30% ; position: absolute; left: 5%; top: 50%; 
+}
+
+.ob-1 {
+    color: rgb(148, 89, 0); font-weight: bold;
+}
+
+.pos3 {
+     position: absolute; left: 5%; top: 47.3%; 
+}
+
+.pos4 {
+    position: absolute; left: 5%; top: 60%; 
+}
+
+.pos5 {
+    position: absolute; left: 5%; top: 63%; 
+}
+
+.pos6 {
+    position: absolute; left: 5%; top: 77%; 
+}
