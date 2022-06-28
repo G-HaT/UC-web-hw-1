@@ -22,11 +22,15 @@
 /*game2 properties*/
 
 .flx {
-    display: flex; flex-direction: column; margin: 2.5%;
+    display: flex; align-content: center;
+    /* flex-direction: column; */
+     margin: 2.5%;  
 }
 
+
+
 .back-clr2 {
-    background-color:  wheat;
+    background-color:  wheat; 
 }
 
 .ti1-tle1 {
@@ -41,13 +45,15 @@
 }
 
 .back1 {
-    width: 12%; background-color: rgb(148, 89, 0); margin-right: 41.5%;  margin-left: 41.5%;
+   height: 5%; width: 12%; background-color: rgb(148, 89, 0);
+    /* margin-right: 41.5%;  margin-left: 41.5%; */
     /* position: absolute; left: 42%; top: 8%;  */
 }
 
 
 .pos1 {
-    width:600px;  height:300px; 
+    /* width: 40%;
+    height: 25%;  */
     /* position: absolute; left: 5%; top: 17%;  */
 }
 
@@ -59,11 +65,41 @@
     color: rgb(148, 89, 0);
 }
 .pos2 {
-    width:30% ; 
+    width:100% ; 
     /* position: absolute; left: 5%; top: 50%;  */
 }
 
 .ob-1 {
     color: rgb(148, 89, 0); font-weight: bold;
+}
+
+.pos3 {
+    background-color: rgb(148, 89, 0); border: none; color: burlywood; 
+    /* google font used on the button */
+    font-family: 'Yellowtail', cursive;
+}
+
+.pos5 {
+     margin-top: 10%; margin-bottom: 30%
+    /* margin-left: 62%;margin-right: 5%; */
+    /* width: 48%;  */
+}
+     
+
+.pos5 img {
+    width: 100%; height: 100%;animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.pos6 {
+    width: 40%; margin-bottom: 2.5%; margin-top: 10%;
 }
 
