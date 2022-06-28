@@ -7,11 +7,11 @@
 }
 
 .ti-tle {
-    color: white; font-weight: bold; position: absolute; left: 40%; top: 8%;
+    color: rgb(148, 89, 0); font-weight: bold; position: absolute; left: 40%; top: 8%;
 }
 
 .clr {
-    color: white; position: absolute;
+    color: rgb(148, 89, 0); position: absolute;
     left: 5%;
     top: 24%;
 }
@@ -20,13 +20,18 @@
 
 
 /*game2 properties*/
+
+.flx {
+    display: flex; flex-direction: column; margin: 2.5%;
+}
+
 .back-clr2 {
     background-color:  wheat;
 }
 
 .ti1-tle1 {
 
-    color: white;  font-weight: bold; font-style: italic; 
+    color: rgb(148, 89, 0);  font-weight: bold; font-style: italic; 
 }
 
 
@@ -36,33 +41,29 @@
 }
 
 .back1 {
-    width: 12%; background-color: rgb(148, 89, 0);position: absolute; left: 42%; top: 8%; 
+    width: 12%; background-color: rgb(148, 89, 0); margin-right: 41.5%;  margin-left: 41.5%;
+    /* position: absolute; left: 42%; top: 8%;  */
 }
+
 
 .pos1 {
-    position: absolute; left: 5%; top: 17%;
+    width:600px;  height:300px; 
+    /* position: absolute; left: 5%; top: 17%;  */
 }
 
+.pos1 img {
+    width: 100%; height: 100%;
+}
+
+.clr22 {
+    color: rgb(148, 89, 0);
+}
 .pos2 {
-    width:30% ; position: absolute; left: 5%; top: 50%; 
+    width:30% ; 
+    /* position: absolute; left: 5%; top: 50%;  */
 }
 
 .ob-1 {
     color: rgb(148, 89, 0); font-weight: bold;
 }
 
-.pos3 {
-     position: absolute; left: 5%; top: 47.3%; 
-}
-
-.pos4 {
-    position: absolute; left: 5%; top: 60%; 
-}
-
-.pos5 {
-    position: absolute; left: 5%; top: 63%; 
-}
-
-.pos6 {
-    position: absolute; left: 5%; top: 77%; 
-}
