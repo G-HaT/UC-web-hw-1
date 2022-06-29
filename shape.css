@@ -80,14 +80,16 @@
 }
 
 .pos5 {
-     margin-top: 10%; margin-bottom: 30%
+    
     /* margin-left: 62%;margin-right: 5%; */
     /* width: 48%;  */
 }
      
 
 .pos5 img {
-    width: 100%; height: 100%;animation: rotation 10s infinite linear;
+    width: 600px; height: 600px;
+    animation: rotation 10s infinite linear;
+    margin-top: 50%;
 }
 
 @keyframes rotation {
